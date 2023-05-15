@@ -8,10 +8,10 @@ const char *ssid = "RAIO-IOT";
 const char *password = "Raio-123456789";
 
 // Definir as credenciais do broker MQTT
-const char *mqtt_server = "c870f335513246ff868ab19f9b93fb12.s2.eu.hivemq.cloud";
+const char *mqtt_server = "c2d3f38e6eee4b1597daa92b190781c5.s1.eu.hivemq.cloud";
 const int mqtt_port = 8883;
-const char *mqtt_username = "RaioIOT";
-const char *mqtt_password = "Raio-123456789";
+const char *mqtt_username = "hivemq.webclient.1684186104777";
+const char *mqtt_password = "<LP,9MO@*0dpu6kNzH1n";
 
 const char *root_ca =
     "-----BEGIN CERTIFICATE-----\n"
@@ -132,7 +132,7 @@ void loop()
   // Publicação de mensagem no tópico
   if (client.connected() && value != status.toInt())
   {
-    client.publish("EspResponse", "1");
+    //client.publish("EspResponse", "1");
   }
   else
   {
