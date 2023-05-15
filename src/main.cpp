@@ -10,8 +10,8 @@ const char *password = "Raio-123456789";
 // Definir as credenciais do broker MQTT
 const char *mqtt_server = "c2d3f38e6eee4b1597daa92b190781c5.s1.eu.hivemq.cloud";
 const int mqtt_port = 8883;
-const char *mqtt_username = "hivemq.webclient.1684186104777";
-const char *mqtt_password = "<LP,9MO@*0dpu6kNzH1n";
+const char *mqtt_username = "hivemq.webclient.1684187502185";
+const char *mqtt_password = "2wrpi:1W7Q?0NAxZ%#aH";
 
 const char *root_ca =
     "-----BEGIN CERTIFICATE-----\n"
